@@ -16,14 +16,7 @@ const router = createBrowserRouter(
       <Route
         path="/dashboard"
         element={
-          <>
-            <SignedIn>
               <DashBoard />
-            </SignedIn>
-
-            <SignedOut>
-              <RedirectToSignIn />
-            </SignedOut>
           </>
         }
       />
