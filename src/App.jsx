@@ -12,9 +12,10 @@ import DashBoard from './DashBoard';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route index element={<Home />} />
+     
       <Route
-        path="/dashboard"
+        path="/"
+        index
         element={
           <>
             <SignedIn>
